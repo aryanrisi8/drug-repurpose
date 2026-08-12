@@ -1,0 +1,12 @@
+{
+  "dataset": "OptimusKG",
+  "role": "primary_production_knowledge_graph",
+  "version": null,
+  "access_date": null,
+  "source_url": null,
+  "license": null,
+  "raw_files": [],
+  "schema_files": [],
+  "checksums": {},
+  "notes": "Fill this after confirming the exact OptimusKG release/source used."
+}

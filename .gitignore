@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets and local machine config
+.env
+*.secret.*
+configs/local*.yaml
+configs/local*.json
+
+# Large data and generated outputs stay in Google Drive or external storage
+data/optimuskg/
+data/hetionet/
+data/raw/
+data/interim/
+data/processed/
+reports/generated/
+outputs/
+artifacts/
+models/
+checkpoints/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

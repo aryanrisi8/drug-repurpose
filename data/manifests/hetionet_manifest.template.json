@@ -1,0 +1,11 @@
+{
+  "dataset": "Hetionet",
+  "role": "separate_benchmark_only",
+  "version": null,
+  "access_date": null,
+  "source_url": null,
+  "license": null,
+  "raw_files": [],
+  "checksums": {},
+  "notes": "Do not merge Hetionet edges into OptimusKG training data."
+}
