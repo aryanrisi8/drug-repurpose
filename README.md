@@ -1,30 +1,19 @@
-# drug-repurpose
+# multimodal-repurpose
 
-An MCP-grounded multi-agent system for rare-disease drug repurposing that co-reasons across knowledge-graph topology, structural binding inference, and literature evidence with calibrated uncertainty scoring.
+**A rare-disease-focused, multi-modal agentic reasoning framework for systematic drug repurposing.**
 
-## Compute and Storage Model
+Of the 7,000+ characterized rare diseases affecting ~300M people globally, fewer than 5% have an FDA-approved therapeutic. `multimodal-repurpose` addresses this gap by orchestrating three complementary evidence modalities — knowledge graph topology, geometric structural binding inference, and real-time literature synthesis — within a single iterative, MCP-grounded agent loop.
 
-This project is designed for a machine without a local GPU.
+## Core Contributions
+- 🧬 **Knowledge Graph Reasoning**: Rare-disease-tagged KG (PrimeKG + Hetionet + Orphanet/HPO) with path-based and embedding-based link prediction.
+- 🔬 **Structural Binding Module**: Geometric deep learning inference for drug–target affinity, contextualized against disease pathways.
+- 📚 **Literature Co-Reasoning Agent**: LLM-driven, tool-grounded literature synthesis to validate and explain hypotheses in real time.
+- 🔌 **MCP Tool Abstraction**: Standardized, portable tool-calling layer decoupling the reasoning agent from any specific bioinformatics backend.
+- 📊 **Calibrated Confidence Scoring**: Multi-objective, uncertainty-aware ranking that aggregates heterogeneous evidence signals into a single interpretable score.
+- 🎯 **Rare-Disease Evaluation Protocol**: Benchmarks beyond AUROC — mechanistic coherence, evidence coverage, and phenotype alignment for sparse, low-degree disease nodes.
 
-- **GitHub** stores code, notebooks, configs, schemas, and small manifests.
-- **Google Drive** stores large datasets, generated embeddings, model checkpoints, reports, and candidate tables.
-- **Google Colab** runs GPU-heavy notebooks and writes outputs back to Drive.
-- **Local Codex workspace** is used for editing, planning, lightweight inspection, and MCP server development.
+## Why This Matters
+Existing approaches (KGE/GNN link prediction, structural docking, un-augmented LLM synthesis) each fail rare diseases in isolation — sparse graphs, missing mechanistic context, or hallucination-prone reasoning. This project unifies them into a single, reproducible, evidence-ranked pipeline.
 
-Large biomedical data files should not be committed to Git.
-
-## First Run
-
-1. Use the GitHub repository `https://github.com/aryanrisi8/drug-repurpose.git`.
-2. Upload or push this folder to that repository.
-3. Create the Drive folders described in [docs/colab_drive_github_setup.md](docs/colab_drive_github_setup.md).
-4. Open [notebooks/00_colab_bootstrap.ipynb](notebooks/00_colab_bootstrap.ipynb) in Colab.
-5. Run the bootstrap notebook to mount Drive, clone the GitHub repo, install dependencies, and verify GPU availability.
-
-## Week 1 Target
-
-- Pin OptimusKG access/version.
-- Create a data manifest.
-- Inspect OptimusKG schema.
-- Keep Hetionet as a separate benchmark dataset.
-- Generate initial graph statistics and a lightweight baseline.
+## Status
+🚧 Actively under development — Week 1: KG construction & MCP scaffolding.
