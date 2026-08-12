@@ -2,7 +2,7 @@
 
 **A rare-disease-focused, multi-modal agentic reasoning framework for systematic drug repurposing.**
 
-Of the 7,000+ characterized rare diseases affecting ~300M people globally, fewer than 5% have an FDA-approved therapeutic. `multimodal-repurpose` addresses this gap by orchestrating three complementary evidence modalities — knowledge graph topology, geometric structural binding inference, and real-time literature synthesis — within a single iterative, MCP-grounded agent loop.
+Of the 7,000+ characterized rare diseases affecting ~300M people globally, fewer than 5% have an FDA-approved therapeutic. `drug-repurpose` addresses this gap by orchestrating three complementary evidence modalities — knowledge graph topology, geometric structural binding inference, and real-time literature synthesis — within a single iterative, MCP-grounded agent loop.
 
 ## Core Contributions
 -  **Knowledge Graph Reasoning**: Rare-disease-tagged KG (PrimeKG + Hetionet + Orphanet/HPO) with path-based and embedding-based link prediction.
