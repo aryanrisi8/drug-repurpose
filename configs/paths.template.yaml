@@ -1,22 +1,22 @@
 project:
-  name: multimodal-repurpose
+  name: drug-repurpose
 
 local:
   repo_root: "."
 
 drive:
   mount_root: "/content/drive"
-  project_root: "/content/drive/MyDrive/multimodal-repurpose"
-  data_root: "/content/drive/MyDrive/multimodal-repurpose/data"
-  artifact_root: "/content/drive/MyDrive/multimodal-repurpose/artifacts"
-  report_root: "/content/drive/MyDrive/multimodal-repurpose/reports"
+  project_root: "/content/drive/MyDrive/drug-repurpose"
+  data_root: "/content/drive/MyDrive/drug-repurpose/data"
+  artifact_root: "/content/drive/MyDrive/drug-repurpose/artifacts"
+  report_root: "/content/drive/MyDrive/drug-repurpose/reports"
 
 datasets:
   optimuskg:
-    raw_dir: "/content/drive/MyDrive/multimodal-repurpose/data/raw/optimuskg"
-    processed_dir: "/content/drive/MyDrive/multimodal-repurpose/data/processed/optimuskg"
+    raw_dir: "/content/drive/MyDrive/drug-repurpose/data/raw/optimuskg"
+    processed_dir: "/content/drive/MyDrive/drug-repurpose/data/processed/optimuskg"
     manifest: "data/manifests/optimuskg_manifest.json"
   hetionet:
-    raw_dir: "/content/drive/MyDrive/multimodal-repurpose/data/raw/hetionet"
-    processed_dir: "/content/drive/MyDrive/multimodal-repurpose/data/processed/hetionet"
+    raw_dir: "/content/drive/MyDrive/drug-repurpose/data/raw/hetionet"
+    processed_dir: "/content/drive/MyDrive/drug-repurpose/data/processed/hetionet"
     manifest: "data/manifests/hetionet_manifest.json"

@@ -6,7 +6,7 @@ Set up OptimusKG access, pin the data version, inspect the schema, and create th
 
 ## Checklist
 
-- [ ] Create GitHub repo `multimodal-repurpose`.
+- [ ] Use GitHub repo `https://github.com/aryanrisi8/drug-repurpose.git`.
 - [ ] Push this scaffold to GitHub.
 - [ ] Create Google Drive project folders using `notebooks/00_colab_bootstrap.ipynb`.
 - [ ] Confirm Colab GPU is available for heavy experiments.

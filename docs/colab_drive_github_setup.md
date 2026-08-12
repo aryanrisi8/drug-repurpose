@@ -6,20 +6,20 @@ Use GitHub for reproducible code and Drive for large state.
 
 ```text
 Google Drive/
-└── multimodal-repurpose/
-    ├── data/
-    │   ├── raw/
-    │   │   ├── optimuskg/
-    │   │   └── hetionet/
-    │   ├── interim/
-    │   ├── processed/
-    │   └── manifests/
-    ├── artifacts/
-    │   ├── embeddings/
-    │   ├── models/
-    │   └── checkpoints/
-    ├── reports/
-    └── runs/
++-- drug-repurpose/
+    +-- data/
+    |   +-- raw/
+    |   |   +-- optimuskg/
+    |   |   +-- hetionet/
+    |   +-- interim/
+    |   +-- processed/
+    |   +-- manifests/
+    +-- artifacts/
+    |   +-- embeddings/
+    |   +-- models/
+    |   +-- checkpoints/
+    +-- reports/
+    +-- runs/
 ```
 
 The GitHub repo should contain source code, notebooks, configs, documentation, schemas, and small manifests only.
@@ -29,7 +29,7 @@ The GitHub repo should contain source code, notebooks, configs, documentation, s
 1. Open Colab.
 2. Select a GPU runtime when needed.
 3. Mount Google Drive.
-4. Clone or pull the GitHub repo.
+4. Clone or pull `https://github.com/aryanrisi8/drug-repurpose.git`.
 5. Install dependencies inside the Colab session.
 6. Read large files from Drive.
 7. Save generated datasets, embeddings, and model outputs back to Drive.
@@ -88,7 +88,7 @@ Colab runtime:
 
 ## Day 1 Practical Order
 
-1. Initialize GitHub repo.
+1. Initialize GitHub repo using `https://github.com/aryanrisi8/drug-repurpose.git` as the remote.
 2. Push this scaffold.
 3. Run `notebooks/00_colab_bootstrap.ipynb`.
 4. Confirm Drive folders exist.

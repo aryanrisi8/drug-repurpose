@@ -1,4 +1,4 @@
-# multimodal-repurpose
+# drug-repurpose
 
 An MCP-grounded multi-agent system for rare-disease drug repurposing that co-reasons across knowledge-graph topology, structural binding inference, and literature evidence with calibrated uncertainty scoring.
 
@@ -15,7 +15,7 @@ Large biomedical data files should not be committed to Git.
 
 ## First Run
 
-1. Create a GitHub repository named `multimodal-repurpose`.
+1. Use the GitHub repository `https://github.com/aryanrisi8/drug-repurpose.git`.
 2. Upload or push this folder to that repository.
 3. Create the Drive folders described in [docs/colab_drive_github_setup.md](docs/colab_drive_github_setup.md).
 4. Open [notebooks/00_colab_bootstrap.ipynb](notebooks/00_colab_bootstrap.ipynb) in Colab.
